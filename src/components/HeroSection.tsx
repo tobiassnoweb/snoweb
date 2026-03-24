@@ -25,7 +25,6 @@ const HeroSection = () => {
             transition={{ delay: 0.1 }}
             className="flex items-center gap-3 mb-6"
           >
-            <img src={snowflake} alt="" className="h-6 w-6" />
             <p className="text-primary font-display font-medium tracking-widest uppercase text-sm">
               Consulting · AI · Product Design
             </p>
@@ -40,9 +39,9 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-12 leading-relaxed">
-            A boutique consultancy specializing in product design, AI integration,
-            and digital transformation. Turning ideas into high-performing
-            digital experiences.
+            A boutique consultancy specializing in product design, AI
+            integration, and digital transformation. Turning ideas into
+            high-performing digital experiences.
           </p>
 
           <div className="flex flex-wrap gap-4">
@@ -68,7 +67,10 @@ const HeroSection = () => {
         transition={{ delay: 1.2 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2"
       >
-        <a href="#about" className="text-muted-foreground hover:text-primary transition-colors">
+        <a
+          href="#about"
+          className="text-muted-foreground hover:text-primary transition-colors"
+        >
           <ArrowDown size={20} className="animate-bounce" />
         </a>
       </motion.div>
