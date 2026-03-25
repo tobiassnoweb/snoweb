@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
-import snowflake from "@/assets/snoweb-animation.gif";
+//import snowflake from "@/assets/snoweb-animation.gif";
 
 const HeroSection = () => {
   return (

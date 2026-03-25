@@ -1,27 +1,30 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Linkedin } from "lucide-react";
+import benoit from "../assets/benoit-headshot.png";
+import tobias from "../assets/headshot.png";
+import sven from "../assets/sven-linus.png";
 
 const team = [
   {
     name: "Tobias Tornqvist",
     role: "Founder & Product Lead",
     bio: "Specialized in product strategy, UX/UI design, and front-end development with a strong focus on AI-driven solutions and fintech.",
-    image: "https://tobiassnoweb.github.io/snoweb/img/team/headshot.png",
+    image: tobias,
     linkedin: "https://www.linkedin.com/in/tobias-tornqvist-5970103/",
   },
   {
     name: "Benoit Marsot",
     role: "Senior Software Developer",
     bio: "Experienced developer with deep knowledge of relational databases, genetic programming, and cutting-edge technologies including MR and Hololens 2.",
-    image: "https://tobiassnoweb.github.io/snoweb/img/team/benoit-headshot.png",
+    image: benoit,
     linkedin: "https://www.linkedin.com/in/benoitmarsot/",
   },
   {
     name: "Sven Linus Tornqvist",
     role: "AI Developer",
     bio: "Visionary developer creating viral games, social apps, and cutting-edge AI solutions with deep expertise in neural networks.",
-    image: "https://tobiassnoweb.github.io/snoweb/img/team/sven-linus.png",
+    image: sven,
     linkedin: "https://www.linkedin.com/in/sven-linus-t%C3%B6rnqvist/",
   },
 ];

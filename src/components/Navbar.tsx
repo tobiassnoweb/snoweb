@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/snoweb-logo.png";
+
 import logoText from "@/assets/logo-text.png";
 
 const links = [
@@ -24,8 +24,11 @@ const Navbar = () => {
     >
       <div className="container flex items-center justify-between h-16">
         <a href="#" className="flex items-center gap-2.5">
-          <img src={logo} alt="Snoweb" className="h-8 w-8" />
-          <img src={logoText} alt="Snoweb" className="h-5 brightness-0 invert" />
+          <img
+            src={logoText}
+            alt="Snoweb"
+            className="h-5 brightness-0 invert"
+          />
         </a>
 
         <div className="hidden md:flex items-center gap-8">

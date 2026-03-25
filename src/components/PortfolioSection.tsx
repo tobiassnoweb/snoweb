@@ -5,6 +5,10 @@ import { ExternalLink, X } from "lucide-react";
 import verizonBookmarkSrc from "../assets/verizon-bookmark.mov?url";
 import verizonClusterSrc from "../assets/verizon-cluster.mov?url";
 import verizonDemandRadarImg from "../assets/verizon-demand-radar.png";
+import liquidAmberPreviewSrc from "../assets/liquidamber.webp";
+import sibrosSrc from "../assets/sibros.jpg";
+
+import musicGeneratorSrc from "../assets/music-generator.webp";
 import liquidAmberSrc from "../assets/liquidamberHZ.mov?url";
 import sibrosVideoSrc from "../assets/sibros-demo.mov?url";
 import musicVideoSrc from "../assets/music-generator.mov?url";
@@ -51,7 +55,7 @@ The platform is both LLM-agnostic and CMS-agnostic, integrating directly into ex
 
 Purpose-built for efficiency and scale, LiquidAmber reduces the friction of archival research while increasing the quality and continuity of storytelling. It empowers newsrooms to do more with what they already have—unlocking institutional knowledge and turning it into a competitive advantage.`,
     link: null,
-    image: "https://tobiassnoweb.github.io/snoweb/img/portfolio/code-chat.webp",
+    image: liquidAmberPreviewSrc,
     videos: [{ src: liquidAmberSrc, label: "Platform Demo" }],
   },
   {
@@ -62,7 +66,7 @@ Purpose-built for efficiency and scale, LiquidAmber reduces the friction of arch
 
 Role: Led the design and implementation of a cutting-edge diagnostic tool powered by generative AI and large language models (LLMs). Spearheaded product development from concept to execution, focusing on user-centric design, seamless functionality, and leveraging AI to deliver intelligent, real-time diagnostics.`,
     link: "https://www.sibros.tech/post/transforming-vehicle-maintenance-with-ai-driven-diagnostics?utm_source=LinkedIn&utm_medium=Social+media+&utm_campaign=Transforming+Vehicle+Maintenance+with+AI-Driven+Diagnostics",
-    image: "https://tobiassnoweb.github.io/snoweb/img/portfolio/port1.jpg",
+    image: sibrosSrc,
     videos: [{ src: sibrosVideoSrc, label: "Demo" }],
   },
   {
@@ -71,8 +75,7 @@ Role: Led the design and implementation of a cutting-edge diagnostic tool powere
     desc: "Mood-based AI Music Generator that creates personalized music in real-time based on the user's emotional state using AI-driven sentiment analysis.",
     detail: `The Mood-Based AI Music Generator is an intelligent tool that creates personalized music in real-time based on the user's emotional state. Using AI-driven sentiment analysis, biometrics, or user input, the system dynamically generates or curates music that aligns with the detected mood.`,
     link: "https://github.com/svenlinus/AI-Generated-Music-Pytorch-Flask",
-    image:
-      "https://tobiassnoweb.github.io/snoweb/img/portfolio/music-generator.webp",
+    image: musicGeneratorSrc,
     videos: [{ src: musicVideoSrc, label: "Demo" }],
   },
 ];
