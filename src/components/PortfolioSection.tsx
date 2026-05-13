@@ -112,8 +112,11 @@ const PortfolioSection = () => {
               Portfolio
             </p>
             <h2 className="font-display text-4xl md:text-5xl font-bold">
-              What we are proud of
+              AI products we've shipped
             </h2>
+            <p className="text-muted-foreground mt-4 max-w-xl mx-auto leading-relaxed">
+              From enterprise ML platforms to co-founded AI startups — real products, measurable outcomes.
+            </p>
           </motion.div>
 
           <div className="grid md:grid-cols-2 gap-6">

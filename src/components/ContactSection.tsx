@@ -43,11 +43,11 @@ const ContactSection = () => {
               Contact
             </p>
             <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
-              Let's work together
+              Let's build something
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-12">
-              Ready to turn your ideas into digital products that drive success?
-              We'd love to hear from you.
+              Have an AI product to ship, a workflow to modernize, or a team
+              that needs senior product leadership? Tell us about it.
             </p>
           </motion.div>
 

@@ -26,22 +26,22 @@ const HeroSection = () => {
             className="flex items-center gap-3 mb-6"
           >
             <p className="text-primary font-display font-medium tracking-widest uppercase text-sm">
-              Consulting · AI · Product Design
+              AI Product Consulting · Startups &amp; Enterprise
             </p>
           </motion.div>
 
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold leading-[0.95] mb-8">
-            We build
+            Launch AI products
             <br />
-            <span className="text-gradient">digital products</span>
+            <span className="text-gradient">faster than</span>
             <br />
-            that matter.
+            your competition.
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-12 leading-relaxed">
-            A boutique consultancy specializing in product design, AI
-            integration, and digital transformation. Turning ideas into
-            high-performing digital experiences.
+            We help startups and enterprise innovation teams design and ship
+            AI-powered applications, copilots, and workflows — from strategy
+            to production.
           </p>
 
           <div className="flex flex-wrap gap-4">
